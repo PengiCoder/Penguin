@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('decoration.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contents {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.contents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contents li {
+    margin-bottom: 10px;
+}
+
+section {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
