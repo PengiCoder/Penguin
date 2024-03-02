@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial;
+    background-image: url('decoration.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+}
+
+.header {
+    background-color: #5b9bdb;
+    padding: 20px;
+    text-align: center;
+    opacity: 92.5%
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282b2ebe;
+    opacity: 92.5%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.navbar li {
+    float: left;
+    border-right: 1px solid rgb(121, 121, 121);
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #282b2ebe;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+.navbar a.active {
+    background-color: #5b9bdb;
+}
+  
+.navbar li:last-child {
+    border-right: none;
+    border-left: 1px solid rgb(121, 121, 121)
+}
+
+.container {
+    margin: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contents {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.contents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contents li {
+    margin-bottom: 10px;
+}
+
+section {
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-left: 30%;
+}
+h1{
+    text-align: center;
+    height: 100%;
+    font-family: 'Orkney', Arial;
+}
